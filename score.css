@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: #ffffff;
+    max-width: 870px;
+    margin: 0 auto;
+    padding: 3%;
+    color: #000000;
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+#wrapper{
+    margin: 0 auto;
+    background: rgb(245,245,245);
+    border: 5px solid rgb(107,213,225);
+    height: auto;
+}
+.logo{
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 100px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #000;
+}
+.logo h1{
+    font-size: 26px;
+    
+}
+.intro{
+    text-align: center;
+    margin-top: 30px;
+
+}
+.content{
+    margin-top: 40px;
+    display: block;
+}
+.form{
+    float: right;
+    margin: 0 40px 50px 0;
+    width: 300px;
+}
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    margin: 0px 0 50px 10px;
+    width: 300px;
+}
+.players{
+    margin-bottom: 10px;
+}
+.players p{
+    display: inline;
+}
+.my-form{
+    border: 1px solid rgb(255,228,173);
+    height: 200px;
+    box-shadow: #000;
+    box-shadow: 5px 10px 8px #888888;
+}
+.form-group{
+    margin: 10px 15px 10px 15px;
+}
+input{
+    height: 21px;
+    margin-top: 5px;
+    background: rgb(255,228,173);
+    border-radius: 5px;
+}
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    margin: 10px;
+    padding: 3%;
+    background: rgb(255,228,173);
+    border-radius: 10px;
+    outline: none;
+}
+.winner{
+    color:rgb(107,213,225);
+}
+
+@media (max-width: 700px){
+    img{
+        margin-top: 20px;
+        height: auto;
+        width: 100px;
+    }
+    button{
+        padding: 1%;
+        margin: 3px;
+    }
+    #wrapper{
+        height: 400px;
+    }
+    .form{
+        width: 180px;
+        
+    }
+    .my-form{
+        height: 140px;
+    }
+    input{
+        width: 70px;
+    }
+    h1{
+        font-size: 22px;
+    }
+}
